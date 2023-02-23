@@ -9,6 +9,7 @@ import (
 
 func SetupModels() *gorm.DB {
 	// viper.AddConfigPath("../")
+	// viper.AutomaticEnv()
 	// viper_user := viper.Get("POSTGRES_USER")
 	// viper_password := viper.Get("POSTGRES_PASSWORD")
 	// viper_db := viper.Get("POSTGRES_DB")
